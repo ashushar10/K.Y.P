@@ -22,95 +22,88 @@ import { NewReleases, Troubleshoot } from '@mui/icons-material';
 import {Button} from '@patternfly/react-core';
 import AssessmentIcon from '@mui/icons-material/Assessment';
 import banner from '../utils/estate_section_banner.png'
+import { useEffect, useState } from "react";
+import CardsJson from "../Json/cards.json";
+
+// componentDidMount(){
+//   fetch('http://localhost:3002')
+//   .then(response => response.json())
+//   .then(console.log)
+// }
 function BuisnessOwner() { 
+console.log(CardsJson?.schema[0])
+
+// const [data, setData] = useState([])
+// const fetchJson = () => {
+//   fetch("../Json/cards.json")
+//   .then(response => {
+//     return response.json();
+//   }).then(data => {
+//     setData(data);
+//   });
+// }
+// useEffect(() => {
+//   fetchJson()
+// },[])
+
     return (
         <div style={{background: 'white'}}>
-        <div style={{backgroundImage: `url(${banner})`,color: 'white', height: 'auto', padding: '1rem', }}><div style={{textAlign: 'left', padding: '2rem'}}><div style={{fontSize: '1.8rem'}}>Hi, User</div><div style={{fontSize: '1.5rem'}}>Buisness Owner</div></div>
+        <div style={{backgroundImage: `url(${banner})`,color: 'white', height: 'auto', padding: '1rem', }}><div style={{textAlign: 'left', padding: '2rem'}}><div ></div><div style={{fontSize: '2rem'}}>Buisness Owner</div></div>
         </div>    <div style={{padding: '1rem', background: 'white'}}>
             <div style={{textAlign: "left",fontSize: '1.4rem', paddingBottom: '1rem' , justifyContent: 'flex'}}>
              <span ><GradeIcon style={{position: 'relative', top: '8px'}}fontSize='large'/></span> <span style={{fontWeight: '500'}} >Important Use cases    </span> 
              <span><Link to="#" style={{ fontWeight: '300', paddingLeft: '2rem'}}>Learn more use cases</Link></span>
            
             </div>
-           <Box>
+            
+             <Box>
     <Grid container spacing={2}>
-        <Grid item xs={3}>
-        <Card isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
+    {CardsJson?.schema[0]?.BuisnessOwner[0].ImportantFeatures.map((c) => {
+        return (
+          
+        <Grid key={c.id} item xs={3}>
+        
+        
+        <Card   isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
         <CardHeader selectableActions={{
     
    
     selectableActionAriaLabelledby: 'clickable-card-example-1',
     name: 'clickable-card-example'
   }}>
-  
+  {console.log(c.Name)}
         </CardHeader>
-        <CardBody style={{fontWeight: '300'}}><div style={{fontSize: '1.2rem'}}>Need | Requirements</div>
+        <CardBody style={{fontWeight: '300'}}><div style={{fontSize: '1.2rem'}}>{c.Name}</div>
         <span style={{fontWeight: '350'}}>Overview</span>
 </CardBody>
       </Card>
       </Grid>
-      <Grid item xs={3}>
-        <Card isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}>
-  
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}><div style={{fontSize: '1.2rem'}}>Roadmap | map</div>
-        
-<span style={{fontWeight: '350'}}>Project map</span></CardBody>
-      </Card>
-      </Grid>
-      
-      <Grid item xs={3}>
-        <Card isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}>
-  
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}><div style={{fontSize: '1.2rem'}}>Impact on Red hat Overall strategy</div>
-        
-<span style={{fontWeight: '350'}}> Performance impact</span></CardBody>
-      </Card>
-      </Grid>
      
-      <Grid item xs={3}>
-        <Card isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}>
-  
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}><div style={{fontSize: '1.2rem'}}>Timelines | Timeframe</div>
-        
-<span style={{fontWeight: '350'}}> Timelines and timeframes</span></CardBody>
-      </Card>
-      </Grid>
-   
-   
+        )
+    })}  
+       
+
+
       </Grid>
       </Box>
+      
+       
            </div>
            
            <div style={{textAlign: 'left', padding: '1rem'}}>
            <div style={{ color: "black", fontSize: "1.4rem",padding: '0.2rem'}}>
     
-           Get to know more our capabilities</div>
+           Getting Started as a Buisness Owner </div>
            
             <div>
             <Box>
     <Grid container spacing={2}>
-        <Grid item xs={4}>
+      {console.log(CardsJson?.schema[0]?.BuisnessOwner)}
+    {CardsJson?.schema[0]?.BuisnessOwner.map((c,i) => { 
+     
+        return (
+       i > 0?
+        <Grid key={c.id} item xs={4}>
         <Card  style={{textAlign: "left", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
         <CardHeader selectableActions={{
     
@@ -120,9 +113,9 @@ function BuisnessOwner() {
   }}>
     <NewReleasesIcon fontSize='large'/>
     
-          <CardTitle>Feature Releases</CardTitle>
+          <CardTitle>{c.Name}</CardTitle>
         </CardHeader>
-        <CardBody style={{fontWeight: '300'}}>ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo.</CardBody>
+        <CardBody style={{fontWeight: '300'}}>{c.data}</CardBody>
         <CardFooter>
 <Button variant='secondary' style={{fontSize: '1rem'}} > 
       Get started <ArrowRightIcon/>
@@ -130,84 +123,10 @@ function BuisnessOwner() {
 </CardFooter>
       </Card>
       </Grid>
-      <Grid item xs={4}>
-        <Card  style={{textAlign: "left", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}><InsightsIcon fontSize='large'/>
-          <CardTitle>Existing solutions</CardTitle>
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}>We help the adoption of DevOps practices & shift your culture towards operationalizing Software Development.
-DevOps proved to increase your business agility.</CardBody>
-<CardFooter>
-<Button variant='secondary' style={{fontSize: '1rem'}} > 
-      Get started <ArrowRightIcon/>
-    </Button>{' '}
-</CardFooter>
-      </Card>
-      </Grid>
+  : null
+        )
+      })}  
       
-      <Grid item xs={4}>
-        <Card  style={{textAlign: "left", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}>
-    <AssessmentIcon fontSize='large'/>
-   
-          <CardTitle>Reports</CardTitle>
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}>The appropriate IT Project Management structure is critical for the success of every organization. It could be a full Project management methodology setup or simply outsourcing the task to us.</CardBody>
-        <CardFooter>
-<Button variant='secondary' style={{fontSize: '1rem'}} > 
-      Get started <ArrowRightIcon/>
-    </Button>{' '}
-</CardFooter> </Card>
-      </Grid>
-      <Grid item xs={4}>
-        <Card  style={{textAlign: "left", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}>
-    <MonitorHeartIcon fontSize='large'/>
-    
-          <CardTitle>Monitoring/Alerts</CardTitle>
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}>ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo.</CardBody>
-        <CardFooter>
-<Button variant='secondary' style={{fontSize: '1rem'}} > 
-      Get started <ArrowRightIcon/>
-    </Button>{' '}
-</CardFooter>
-      </Card>
-      </Grid>
-      <Grid item xs={4}>
-        <Card  style={{textAlign: "left", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
-        <CardHeader selectableActions={{
-    
-   
-    selectableActionAriaLabelledby: 'clickable-card-example-1',
-    name: 'clickable-card-example'
-  }}><TroubleshootIcon fontSize='large'/>
-          <CardTitle>troubleshooting</CardTitle>
-        </CardHeader>
-        <CardBody style={{fontWeight: '300'}}>We help the adoption of DevOps practices & shift your culture towards operationalizing Software Development.
-DevOps proved to increase your business agility.</CardBody>
-<CardFooter>
-<Button variant='secondary' style={{fontSize: '1rem'}} > 
-      Get started <ArrowRightIcon/>
-    </Button>{' '}
-</CardFooter>
-      </Card>
-      </Grid>
       
     
 

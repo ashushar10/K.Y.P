@@ -1,0 +1,170 @@
+{
+    "schema": [
+    {
+        "BuisnessOwner": [
+            {
+                "ImportantFeatures": [
+                    {
+                        "id": 1,
+                        "Name": "Feature Releases",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    },
+                    {
+                        "id": 2,
+                        "Name": "Existing Solutions",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    },
+                    {
+                        "id": 3,
+                        "Name": "Reports",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    }
+                ]},
+            
+            {
+                "id": 1,
+                "Name": "Feature Releases",
+                "Link": "",
+                "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 2,
+                "Name": "Existing Solutions",
+                "Link": "",
+                "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 3,
+                "Name": "Reports",
+                "Link": "",
+                "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 4,
+                "Name": "Monitoring alerts",
+                "Link": "",
+                "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            }
+        ],
+        "Developer": [
+            {
+                "ImportantFeatures": [
+                    {
+                        "id": 1,
+                        "Name": "Language",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    },
+                    {
+                        "id": 2,
+                        "Name": "Tracking",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    },
+                    {
+                        "id": 3,
+                        "Name": "Tech Architecture",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    }
+                ]},
+            {
+                "id": 1,
+                "Name": "Language",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 2,
+                "Name": "Tracking",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 3,
+                "Name": "Tech Architecture",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 4,
+                "Name": "Troubleshooting",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            }
+        ],
+        "DevOps": [
+            {
+                "ImportantFeatures": [
+                    {
+                        "id": 1,
+                        "Name": "Deployement cycle",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    },
+                    {
+                        "id": 2,
+                        "Name": "External resources",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    },
+                    {
+                        "id": 3,
+                        "Name": "Security",
+                        "Link": "",
+                        "isGraph": "0",
+                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                    }
+                ]},
+            {
+                "id": 1,
+                "Name": "Deployement cycle",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 2,
+                "Name": "External resources",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 3,
+                "Name": "Security",
+                "Link": "",
+                        "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            },
+            {
+                "id": 4,
+                "Name": "Configuration",
+                "Link": "",
+                "isGraph": "0",
+                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+            }
+        ]
+    
+    }
+]
+}
