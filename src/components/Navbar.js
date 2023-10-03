@@ -3,18 +3,17 @@ import {Page, PageSidebar, PageSidebarBody, Nav, MenuContent, MenuItem, MenuList
 // import DashboardHeader from '@patternfly/react-core/src/demos/examples/DashboardHeader';
 import { BrowserRouter as Router, Route, Routes,useParams,useLocation, NavLink} from "react-router-dom";
 import Qe from './QE';
+import { ServicesIcon, HomeIcon,BlackTieIcon ,ProcessAutomationIcon,DevIcon, ServiceCatalogIcon} from '@patternfly/react-icons';
+import { Icon } from '@patternfly/react-core';
 import Ops from './Ops';
 import Developer from './Developer';
 import BuisnessOwner from './BusinessOwner';
 import Home from './Home';
 import WithIconRouterLink from './Header';
 import { useEffect, useState } from "react";
-import BusinessIcon from '@mui/icons-material/Business';
-import HomeIcon from '@mui/icons-material/Home';
-import CodeIcon from '@mui/icons-material/Code';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+
 import './Bar.css'
+import Sup from './Support';
 // import DashboardHeader from '@patternfly/react-core/src/demos/examples/DashboardHeader';
 
 function getNavLayer(menuId) {
@@ -62,34 +61,62 @@ const NavDrilldown = () => {
                 </MenuItem> */}
                 <NavLink className={({ isActive }) => "underline" + isActive ? " active" : ""} to="/">
                 <MenuItem  >
-                <HomeIcon style={{position: 'relative', top: '5px', right: '2px'}}/>
-                  Home
+                <Icon size='lg' style={{position: 'relative', top: '3px',right: '1px', marginRight: '10px'}}>
+        <HomeIcon  size='md'/> 
+    
+    </Icon>
+    <span>   Home</span>
+               
                 </MenuItem>
                 </NavLink>
                 <NavLink className={({ isActive }) => "underline" + isActive ? " active" : ""}to="/BuisnessOwner">
                 <MenuItem  >
-                <BusinessIcon style={{position: 'relative', top: '5px', right: '2px'}}/>
-                  Buisness Owner
+                <Icon size='lg' style={{position: 'relative', top: '3px',right: '1px', marginRight: '10px'}}>
+        <BlackTieIcon  size='md'/> 
+    
+    </Icon>
+    <span>   BuisnessOwner</span>
                 </MenuItem>
                 </NavLink>
                 <NavLink className={({ isActive }) => "underline" + isActive ? " active" : ""} to="/Developer">
                 <MenuItem >
-                    <CodeIcon style={{position: 'relative', top: '6px', right: '3px'}}/>
-                  Developer
+                <Icon size='lg' style={{position: 'relative', top: '3px',right: '1px', marginRight: '10px'}}>
+        <DevIcon  size='md'/> 
+    
+    </Icon>
+                 <span>  Developer</span>
                 </MenuItem>
                 </NavLink>
                 <NavLink  className={({ isActive }) => "underline" + isActive ? " active" : ""} to="/Qe">
                 <MenuItem>
-                <EngineeringIcon style={{position: 'relative', top: '5px', right: '2px'}}/>
-                  QE
+                <Icon size='lg' style={{position: 'relative', top: '3px',right: '1px', marginRight: '10px'}}>
+        <ServiceCatalogIcon  size='md'/> 
+    
+    </Icon>
+                  <span>   QE</span>
                 </MenuItem>
                 </NavLink>
                 <NavLink  className={({ isActive }) => "underline" + isActive ? " active" : ""}to="/Ops ">
                 <MenuItem>
-                    <IntegrationInstructionsIcon style={{position: 'relative', top: '5px', right: '3px'}}/>
-                  DevOps
+                <Icon size='lg' style={{position: 'relative', top: '3px',right: '1px', marginRight: '10px'}}>
+        <ProcessAutomationIcon  size='md'/> 
+    
+    </Icon>
+                  <span>   DevOps</span>
                 </MenuItem>
+
                 </NavLink>
+                <NavLink  className={({ isActive }) => "underline" + isActive ? " active" : ""}to="/Support">
+                <MenuItem>
+                <Icon size='lg' style={{position: 'relative', top: '5px',right: '1px', marginRight: '10px'}}>
+        <ServicesIcon  size='md'/>
+    
+    </Icon>
+              <span>  Support</span>
+                </MenuItem>
+                
+                </NavLink>
+                
               </MenuList>
             </MenuContent>
           </Menu>
@@ -102,7 +129,7 @@ console.log(navLayer)
     
       <PageSection>
       {location.pathname === "/Qe"
-        ? <Qe />: location.pathname === "/Ops"?<Ops/>:location.pathname === "/Developer"?<Developer/>:location.pathname === "/BuisnessOwner"?<BuisnessOwner/>:<Home/>
+        ? <Qe />: location.pathname === "/Ops"?<Ops/>:location.pathname === "/Developer"?<Developer/>:location.pathname === "/BuisnessOwner"?<BuisnessOwner/>:location.pathname === "/Support"?<Sup/>:<Home/>
       }
       </PageSection>
     </Page>;

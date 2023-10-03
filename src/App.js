@@ -7,8 +7,12 @@ import Ops from './components/Ops';
 import Qe from './components/QE';
 import Developer from './components/Developer';
 import BuisnessOwner from './components/BusinessOwner';
+
 import Home from './components/Home';
 import WithIconRouterLink from './components/Header';
+import Footer from './components/Footer';
+import Sup from './components/Support';
+
 
 function App() {
   
@@ -28,10 +32,13 @@ function App() {
          <Route path="/Ops" component={Ops} />
          <Route path="/Developer" component={Developer} />
          <Route path="/BuisnessOwner" component={BuisnessOwner} /> 
+         <Route path="/Support" component={Sup} /> 
+       
        </Routes>
 
 
      </Router>
+     {/* <Footer/> */}
     </div>
   );
 }

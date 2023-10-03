@@ -6,108 +6,144 @@
                 "ImportantFeatures": [
                     {
                         "id": 1,
-                        "Name": "Feature Releases",
-                        "Link": "",
+                        "Name": "Iteration Review",
+                        "Link": "https://docs.google.com/document/d/1zzl1ZodrNrNcG2b5VeD48Qg0blc6GgbEezRmjCgZRkc/edit",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "Recorded demo of all things completed in the sprint."
                     },
                     {
                         "id": 2,
-                        "Name": "Existing Solutions",
-                        "Link": "",
+                        "Name": "Weekly Refinement",
+                        "Link": "https://docs.google.com/document/d/1ZMtf42SZ4rLNW5sggtQcj9bHTRF15Ht7TUTQ5VrnHY4/edit",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "Recorded discussion of the stories, which get refined before reaching the Jira board."
                     },
                     {
                         "id": 3,
-                        "Name": "Reports",
-                        "Link": "",
+                        "Name": "Epic Dashboard",
+                        "Link": "https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12354193 ",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "One view to look at the progress of the Epic"
                     }
                 ]},
             
-            {
-                "id": 1,
-                "Name": "Feature Releases",
-                "Link": "",
-                "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 2,
-                "Name": "Existing Solutions",
-                "Link": "",
-                "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 3,
-                "Name": "Reports",
-                "Link": "",
-                "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
+                {
+                    "id": 1,
+                    "Name": "Iteration Review",
+                    "Link": "https://docs.google.com/document/d/1zzl1ZodrNrNcG2b5VeD48Qg0blc6GgbEezRmjCgZRkc/edit",
+                    "isGraph": "0",
+                    "data": "Recorded demo of all things completed in the sprint."
+                },
+                {
+                    "id": 2,
+                    "Name": "Weekly Refinement",
+                    "Link": "https://docs.google.com/document/d/1ZMtf42SZ4rLNW5sggtQcj9bHTRF15Ht7TUTQ5VrnHY4/edit",
+                    "isGraph": "0",
+                    "data": "Recorded discussion of the stories, which get refined before reaching the Jira board."
+                },
+                {
+                    "id": 3,
+                    "Name": "Epic Dashboard",
+                    "Link": "https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12354193 ",
+                    "isGraph": "0",
+                    "data": "One view to look at the progress of the Epic"
+                },
             {
                 "id": 4,
-                "Name": "Monitoring alerts",
-                "Link": "",
+                "Name": "Monitoring",
+                "Link": "https://rhcorporate.splunkcloud.com/en-US/app/search/rhsm_api_customer_usage",
                 "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                "data": "A look at the Splunk dashboard that captures customer usage."
+            },
+            {
+                "id": 5,
+                "Name": "Onboarding Plan",
+                "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
+                "isGraph": "0",
+                "data": "This document will help you get started with this role. Welcome to the Teamnado!"
+            },
+            {
+                "id": 6,
+                "Name": "Timeline",
+                "Link": "https://docs.google.com/presentation/d/1LpMVW5JjkI9K05nTSDz69lILusq959x3yzRcI_B-FuY/edit#slide=id.g130e8450ed3_0_0",
+                "isGraph": "0",
+                "data": "A timeline to track the feature releases"
+            },
+            {
+                "id": 7,
+                "Name": "Roadmap",
+                "Link": "https://drive.google.com/file/d/1P0nuAYrzOrR5XV4OBQM6WWIfRw6ll2lL/view ",
+                "isGraph": "0",
+                "data": "Recorded session of the PMs that talks about the upcoming work."
             }
+      
         ],
         "Developer": [
             {
                 "ImportantFeatures": [
                     {
                         "id": 1,
-                        "Name": "Language",
-                        "Link": "",
+                        "Name": "Onboarding Plan",
+                        "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "This is the place to get you started with this role. Welcome to the Teamnado!"
                     },
                     {
                         "id": 2,
-                        "Name": "Tracking",
-                        "Link": "",
+                        "Name": "Project board",
+                        "Link": "https://issues.redhat.com/secure/RapidBoard.jspa?projectKey=TEAMNADO&rapidView=8838",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "Make sure you have rights to access it. If not, contact abc@teamnado.com"
                     },
                     {
                         "id": 3,
-                        "Name": "Tech Architecture",
-                        "Link": "",
+                        "Name": "System Diagram",
+                        "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/system-diagrams/rhsm-api.md",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "Image"
                     }
                 ]},
-            {
-                "id": 1,
-                "Name": "Language",
-                "Link": "",
-                        "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 2,
-                "Name": "Tracking",
-                "Link": "",
-                        "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 3,
-                "Name": "Tech Architecture",
-                "Link": "",
-                        "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
+                {
+                    "id": 1,
+                    "Name": "Onboarding Plan",
+                    "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
+                    "isGraph": "0",
+                    "data": "This is the place to get you started with this role. Welcome to the Teamnado!"
+                },
+                {
+                    "id": 2,
+                    "Name": "Project board",
+                    "Link": "https://issues.redhat.com/secure/RapidBoard.jspa?projectKey=TEAMNADO&rapidView=8838",
+                    "isGraph": "0",
+                    "data": "Make sure you have rights to access it. If not, contact abc@teamnado.com"
+                },
+                {
+                    "id": 3,
+                    "Name": "System Diagram",
+                    "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/system-diagrams/rhsm-api.md",
+                    "isGraph": "0",
+                    "data": "Image"
+                },
             {
                 "id": 4,
-                "Name": "Troubleshooting",
+                "Name": "Project Repository",
                 "Link": "",
                         "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                "data": "Make sure you have rights to access it. If not, contact abc@teamnado.com"
+            },
+            {
+                "id": 5,
+                "Name": "Developer Guide",
+                "Link": "",
+                "isGraph": "0",
+                "data": ""
+            },
+            {
+                "id": 6,
+                "Name": "Monitoring",
+                "Link": "https://rhcorporate.splunkcloud.com/en-US/app/search/search?s=%2FservicesNS%2Fnobody%2Fsearch%2Fsaved%2Fsearches%2F%255BRHSM-API%255D%2520SyncAzure%2520CronJob&sid=1695924074.3491925_7AF866D2-E4C8-447C-A52A-318F2E6F81AF&display.page.search.mode=smart&dispatch.sample_ratio=1&workload_pool=&q=search%20%60ohc(prod%2Crhsm%2Crhsm-api*sync-azure-job%2Ccron%2C*)%60%7C%20rex%20field%3D_raw%20%22stderr%20F%20(%3F%3Cjson%3E%5C%7B.*%5C%7D)%22%20%7C%20spath%20input%3Djson%20%7C%20search%20func.name%3D%22azure.SyncAccountsForImageGroups()%22%20status%3D%22Failed%22&earliest=-1h&latest=now",
+                "isGraph": "0",
+                "data": "Splunk dashboard search query"
             }
         ],
         "DevOps": [
@@ -115,54 +151,86 @@
                 "ImportantFeatures": [
                     {
                         "id": 1,
-                        "Name": "Deployement cycle",
-                        "Link": "",
+                        "Name": "Onboarding Plan",
+                        "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "This is the place to get you started with this role. Welcome to the Teamnado!"
                     },
                     {
                         "id": 2,
-                        "Name": "External resources",
-                        "Link": "",
+                        "Name": "Troubleshooting",
+                        "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/OPS-TROUBLESHOOTING.md",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-                    },
+                        "data": "Learn about the troubleshooting steps."
+                    }
+            
+                ]},
+                {
+                    "id": 1,
+                    "Name": "Onboarding Plan",
+                    "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
+                    "isGraph": "0",
+                    "data": "This is the place to get you started with this role. Welcome to the Teamnado!"
+                },
+                {
+                    "id": 2,
+                    "Name": "Troubleshooting",
+                    "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/OPS-TROUBLESHOOTING.md",
+                    "isGraph": "0",
+                    "data": "Learn about the troubleshooting steps."
+                }
+        ],
+        "QE": [
+            {
+                "ImportantFeatures": [
                     {
-                        "id": 3,
-                        "Name": "Security",
-                        "Link": "",
+                        "id": 1,
+                        "Name": "Onboarding Plan",
+                        "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
                         "isGraph": "0",
-                        "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
+                        "data": "This is the place to get you started with this role.Welcome to the Teamnado!"
                     }
                 ]},
+                {
+                    "id": 1,
+                    "Name": "Onboarding Plan",
+                    "Link": "https://docs.google.com/spreadsheets/d/1w3v2YSKUnDcvyMHYWCFb1OZNaYtzmCdyH0rec7omHLA/edit#gid=1075744117",
+                    "isGraph": "0",
+                    "data": "This is the place to get you started with this role.Welcome to the Teamnado!"
+                }
+        ],
+        "Support": [
             {
-                "id": 1,
-                "Name": "Deployement cycle",
-                "Link": "",
+                "ImportantFeatures": [
+                    {
+                        "id": 1,
+                        "Name": "Google chat groups",
+                        "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/GOOGLE-CHAT-CHANNELS.md ",
                         "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 2,
-                "Name": "External resources",
-                "Link": "",
+                        "data": ""
+                    },
+                    {
+                        "id": 2,
+                        "Name": "Contact",
+                        "Link": "",
                         "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 3,
-                "Name": "Security",
-                "Link": "",
-                        "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            },
-            {
-                "id": 4,
-                "Name": "Configuration",
-                "Link": "",
-                "isGraph": "0",
-                "data": "ERPs play a vital role in providing a backbone to any organization in this digital age. We offer a range of services to help your organization maximize ERP benefits whether it is Oracle, SAP, Microsoft and Odoo."
-            }
+                        "data": "Image"
+                    }
+                ]},
+                {
+                    "id": 1,
+                    "Name": "Google chat groups",
+                    "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/GOOGLE-CHAT-CHANNELS.md ",
+                    "isGraph": "0",
+                    "data": ""
+                },
+                {
+                    "id": 2,
+                    "Name": "Contact",
+                    "Link": "",
+                    "isGraph": "0",
+                    "data": "Image"
+                }
         ]
     
     }
