@@ -5,6 +5,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import Multicolorordered from './PChart';
+import cont from '../utils/contact.png'
 
 import GradeIcon from '@mui/icons-material/Grade';
 import ArrowRightIcon from '@patternfly/react-icons/dist/esm/icons/arrow-right-icon';
@@ -150,6 +151,13 @@ console.log(CardsJson?.schema[0])
       </Box>
       </div>
       </div>
+      <div>
+
+      <div style={{backgroundImage: `url(${banner})`,color: 'white', height: 'auto', padding: '1rem', }}><div style={{textAlign: 'left', padding: '0.5rem 2rem'}}><div ></div><div style={{fontSize: '2rem'}}>Contact</div></div>
+        </div>
+        <img style={{ height: '100%', width: '100%'}} src={cont}/>
+      </div>
+    
       {/* <div style={{textAlign: 'left', padding: '1rem'}}>
       <div style={{ color: "black", fontSize: "1.4rem",padding: '0.2rem'}}>
     

@@ -68,13 +68,6 @@
                 "Link": "https://docs.google.com/presentation/d/1LpMVW5JjkI9K05nTSDz69lILusq959x3yzRcI_B-FuY/edit#slide=id.g130e8450ed3_0_0",
                 "isGraph": "0",
                 "data": "A timeline to track the feature releases"
-            },
-            {
-                "id": 7,
-                "Name": "Roadmap",
-                "Link": "https://drive.google.com/file/d/1P0nuAYrzOrR5XV4OBQM6WWIfRw6ll2lL/view ",
-                "isGraph": "0",
-                "data": "Recorded session of the PMs that talks about the upcoming work."
             }
       
         ],
@@ -221,14 +214,8 @@
                     "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/GOOGLE-CHAT-CHANNELS.md ",
                     "isGraph": "0",
                     "data": ""
-                },
-                {
-                    "id": 2,
-                    "Name": "Contact",
-                    "Link": "",
-                    "isGraph": "0",
-                    "data": "Image"
                 }
+                
         ]
     
     }

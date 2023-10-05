@@ -27,6 +27,7 @@ import AssessmentIcon from '@mui/icons-material/Assessment';
 import banner from '../utils/estate_section_banner.png'
 import { useEffect, useState } from "react";
 import CardsJson from "../Json/cards.json";
+import ComposableTableHoverable from './Table';
 
 // componentDidMount(){
 //   fetch('http://localhost:3002')
@@ -154,7 +155,7 @@ console.log(CardsJson?.schema[0])
       </Box>
       </div>
       </div>
-      <div style={{textAlign: 'left', padding: '1rem'}}>
+      {/* <div style={{textAlign: 'left', padding: '1rem'}}>
       <div style={{ color: "black", fontSize: "1.4rem",padding: '0.2rem'}}>
     
     Metrics Overview</div>
@@ -163,10 +164,14 @@ console.log(CardsJson?.schema[0])
         <Grid item xs={3}> <Multicolorordered/></Grid> <Grid item xs={9}>   <MultiColorChart/></Grid></Grid></Box>
        
          
-      </div>
+      </div> */}
             {/* <Multicolorordered/>
             <MultiColorChart/> */}
-         
+         <div>
+         <div style={{backgroundImage: `url(${banner})`,color: 'white', height: 'auto', padding: '1rem', }}><div style={{textAlign: 'left', padding: '0.5rem 2rem'}}><div ></div><div style={{fontSize: '2rem'}}>Roadmap</div></div>
+        </div> 
+        <ComposableTableHoverable/>
+         </div>
     
         
         </div>

@@ -27,7 +27,7 @@ import AssessmentIcon from '@mui/icons-material/Assessment';
 import banner from '../utils/estate_section_banner.png'
 import { useEffect, useState } from "react";
 import CardsJson from "../Json/cards.json";
-
+import sysD from '../utils/system-design.png'
 import { Icon } from '@patternfly/react-core';
 // componentDidMount(){
 //   fetch('http://localhost:3002')
@@ -66,7 +66,7 @@ console.log(CardsJson?.schema[0])
           
         <Grid key={c.id} item xs={3}>
         
-        <Link target="_blank" rel="noopener noreferrer"  style={{color: 'black', textDecoration: 'none'}} to={c.Link}>
+        <Link  target="_blank" rel="noopener noreferrer"  style={{color: 'black', textDecoration: 'none'}} to={c.Link}>
         <Card   isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3', lineHeight: '100%'}} id="clickable-card-example-1" >
         <CardHeader style={{fontSize: '1.2rem',fontWeight: '300'}} selectableActions={{
     
@@ -182,9 +182,12 @@ console.log(CardsJson?.schema[0])
       </div> */}
             {/* <Multicolorordered/>
             <MultiColorChart/> */}
-         
-    
+          <div><div style={{backgroundImage: `url(${banner})`,color: 'white', height: 'auto', padding: '0.5rem 1rem', }}><div style={{textAlign: 'left', padding: '2rem'}}><div ></div><div style={{fontSize: '2rem'}}>Dependency Chart</div></div>
+        </div>
         
+         <img style={{ height: '100%', width: '100%'}} src={sysD}/>
+         </div> 
+         
         </div>
     );
 }
