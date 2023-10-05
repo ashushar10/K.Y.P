@@ -75,7 +75,7 @@ const NavDrilldown = () => {
         <BlackTieIcon  size='md'/> 
     
     </Icon>
-    <span>   BuisnessOwner</span>
+    <span>   Buisness Owner</span>
                 </MenuItem>
                 </NavLink>
                 <NavLink className={({ isActive }) => "underline" + isActive ? " active" : ""} to="/Developer">

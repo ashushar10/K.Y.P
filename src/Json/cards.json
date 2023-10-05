@@ -93,15 +93,9 @@
                         "Name": "Project board",
                         "Link": "https://issues.redhat.com/secure/RapidBoard.jspa?projectKey=TEAMNADO&rapidView=8838",
                         "isGraph": "0",
-                        "data": "Make sure you have rights to access it. If not, contact abc@teamnado.com"
-                    },
-                    {
-                        "id": 3,
-                        "Name": "System Diagram",
-                        "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/system-diagrams/rhsm-api.md",
-                        "isGraph": "0",
-                        "data": "Image"
+                        "data": "Make sure you have rights to access it. If not, contact teamnado@redhat.com.com"
                     }
+              
                 ]},
                 {
                     "id": 1,
@@ -115,35 +109,39 @@
                     "Name": "Project board",
                     "Link": "https://issues.redhat.com/secure/RapidBoard.jspa?projectKey=TEAMNADO&rapidView=8838",
                     "isGraph": "0",
-                    "data": "Make sure you have rights to access it. If not, contact abc@teamnado.com"
+                    "data": "Make sure you have rights to access it. If not, contact teamnado@redhat.com.com"
                 },
-                {
-                    "id": 3,
-                    "Name": "System Diagram",
-                    "Link": "https://gitlab.corp.redhat.com/it-pnt/ops_school/-/blob/main/system-diagrams/rhsm-api.md",
-                    "isGraph": "0",
-                    "data": "Image"
-                },
+              
             {
-                "id": 4,
+                "id": 3,
                 "Name": "Project Repository",
-                "Link": "",
+                "Link": [{
+                    "Name": "Repository Link", 
+                    "Link": "https://gitlab.corp.redhat.com/it-pnt/rhsm/rhsm-api"},
+                    {
+                        "Name": "Setup Guide", 
+                    "Link": "https://gitlab.corp.redhat.com/it-pnt/rhsm/rhsm-api/-/wikis/Download-and-Setup"}],
                         "isGraph": "0",
-                "data": "Make sure you have rights to access it. If not, contact abc@teamnado.com"
+                "data": "Make sure you have rights to access it. If not, contact teamnado@redhat.com.com"
             },
             {
-                "id": 5,
+                "id": 4,
                 "Name": "Developer Guide",
                 "Link": "",
                 "isGraph": "0",
                 "data": ""
             },
             {
-                "id": 6,
-                "Name": "Monitoring",
-                "Link": "https://rhcorporate.splunkcloud.com/en-US/app/search/search?s=%2FservicesNS%2Fnobody%2Fsearch%2Fsaved%2Fsearches%2F%255BRHSM-API%255D%2520SyncAzure%2520CronJob&sid=1695924074.3491925_7AF866D2-E4C8-447C-A52A-318F2E6F81AF&display.page.search.mode=smart&dispatch.sample_ratio=1&workload_pool=&q=search%20%60ohc(prod%2Crhsm%2Crhsm-api*sync-azure-job%2Ccron%2C*)%60%7C%20rex%20field%3D_raw%20%22stderr%20F%20(%3F%3Cjson%3E%5C%7B.*%5C%7D)%22%20%7C%20spath%20input%3Djson%20%7C%20search%20func.name%3D%22azure.SyncAccountsForImageGroups()%22%20status%3D%22Failed%22&earliest=-1h&latest=now",
+                "id": 5,
+                "Name": "Troubleshooting",
+                 "Link": [{
+                    "Name": "Critical API", 
+                    "Link": "https://docs.google.com/document/d/16ACy5IB07SAbmVv1op9IQz8B2Id-O_GaXIABNDRivIc/edit"},
+                    {
+                        "Name": "Config Map details", 
+                    "Link": "https://console-openshift-console.apps.mpp-e1-prod.9e4s.p1.openshiftapps.com/k8s/ns/rhsm--prod/configmaps/rhsm-api-prod-config/yaml "}],
                 "isGraph": "0",
-                "data": "Splunk dashboard search query"
+                "data": ""
             }
         ],
         "DevOps": [

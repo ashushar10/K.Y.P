@@ -55,7 +55,7 @@ console.log(CardsJson?.schema[0])
         </div>    <div style={{padding: '1rem', background: 'white'}}>
             <div style={{textAlign: "left",fontSize: '1.4rem', paddingBottom: '1rem' , justifyContent: 'flex'}}>
              <span ><img src={star} style={{position: 'relative', top: '10px', height: '2.5rem'}}/></span> <span style={{fontWeight: '500'}} >Frequently Visited  </span> 
-             <span><Link to="#" style={{ fontWeight: '300', paddingLeft: '2rem'}}>All use cases</Link></span>
+             <span><Link to="#" style={{ fontWeight: '300', paddingLeft: '2rem'}}>View all</Link></span>
            
             </div>
             
@@ -66,7 +66,7 @@ console.log(CardsJson?.schema[0])
           
         <Grid key={c.id} item xs={3}>
         
-        <Link style={{color: 'black', textDecoration: 'none'}} to={c.Link}>
+        <Link target="_blank" rel="noopener noreferrer" style={{color: 'black', textDecoration: 'none'}} to={c.Link}>
         <Card   isClickable style={{textAlign: "center", border: '0.5px solid #D3D3D3'}} id="clickable-card-example-1" >
 
         <CardHeader style={{fontSize: '1.2rem',fontWeight: '300'}} selectableActions={{
@@ -96,7 +96,7 @@ console.log(CardsJson?.schema[0])
            <div style={{textAlign: 'left', padding: '1rem'}}>
            <div style={{ color: "black", fontSize: "1.4rem",padding: '1rem 0'}}>
     
-           Getting Started as a <span style={{color: '#ee0000'}}>Quality Engineer . . .</span></div>
+           Getting started as a <span style={{color: '#ee0000'}}>quality engineer</span></div>
            
             <div>
             <Box>
@@ -131,7 +131,7 @@ console.log(CardsJson?.schema[0])
         </CardHeader>
         <CardBody style={{fontWeight: '300', paddingTop: '0.5rem'}}>{c.data}</CardBody>
         <CardFooter>
-          <Link to={c.Link}>
+          <Link target="_blank" rel="noopener noreferrer" to={c.Link}>
 <Button variant='secondary'  style={{fontSize: '1rem'}} > 
       Get started <ArrowRightIcon/>
     </Button>{' '}
